@@ -1,0 +1,1329 @@
+Linux 6.8.0-51-generic (abhijeet-Vivobook) 	09/10/2025 	_x86_64_	(16 CPU)
+
+11:51:54 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:51:55 PM   110       774    0.96    0.00    0.00    0.00    0.96     0  avahi-daemon
+11:51:55 PM     0       884    0.00    0.96    0.00    0.00    0.96    11  irq/84-rtw89_pci
+11:51:55 PM  1000      1501    0.00    0.96    0.00    0.00    0.96     4  pipewire-pulse
+11:51:55 PM  1000      1908    0.96    0.00    0.00    0.00    0.96     8  cinnamon
+11:51:55 PM  1000      2263    3.85    4.81    0.00    0.00    8.65     8  firefox-bin
+11:51:55 PM  1000      2402    0.00    0.96    0.00    0.00    0.96     0  Privileged Cont
+11:51:55 PM  1000      2839    0.00    0.96    0.00    0.00    0.96     1  Isolated Servic
+11:51:55 PM  1000      2963    4.81    0.96    0.00    0.00    5.77     3  Isolated Web Co
+11:51:55 PM  1000      3003    1.92    0.96    0.00    0.00    2.88    14  Isolated Web Co
+11:51:55 PM  1000      4803    0.96    0.00    0.00    0.00    0.96     4  Isolated Web Co
+11:51:55 PM  1000      5469    0.96    0.00    0.00    0.00    0.96    12  Isolated Web Co
+11:51:55 PM  1000      5646    0.96    1.92    0.00    0.00    2.88    12  Isolated Web Co
+11:51:55 PM  1000     35005    1.92    1.92    0.00    0.00    3.85    15  chrome
+11:51:55 PM  1000     35182    3.85    0.96    0.00    0.00    4.81    15  chrome
+11:51:55 PM     0     48072    0.00    0.96    0.00    0.00    0.96     9  kworker/u32:3-gfx_low
+11:51:55 PM  1000     49179    0.96    0.00    0.00    0.00    0.96     8  code
+11:51:55 PM  1000     49237    1.92    0.96    0.00    0.00    2.88    15  code
+11:51:55 PM  1000     49295    0.96    0.00    0.00    0.00    0.96    12  code
+11:51:55 PM  1000     49323    0.96    0.00    0.00    0.00    0.96     8  code
+11:51:55 PM  1000     49758    0.96    0.00    0.00    0.00    0.96    12  Isolated Web Co
+11:51:55 PM  1000     56900    0.00    3.85    0.00    0.00    3.85     1  pidstat
+11:51:55 PM  1000     56901  100.00    0.00    0.00    0.00  100.00     2  sysbench
+
+11:51:54 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:51:55 PM  1000      2263      0.00      0.00 12395608  741296   4.70  firefox-bin
+11:51:55 PM  1000      2470      1.92      0.00 2501060  132832   0.84  WebExtensions
+11:51:55 PM  1000      2570      0.96      0.00 7944352  994108   6.31  Isolated Web Co
+11:51:55 PM  1000      2839      7.69      0.00 2460080   77880   0.49  Isolated Servic
+11:51:55 PM  1000      3003    545.19      0.00 2799964  314660   2.00  Isolated Web Co
+11:51:55 PM  1000      4311      1.92      0.00 2481072  108280   0.69  Isolated Web Co
+11:51:55 PM  1000      4436      0.96      0.00 2485164  110424   0.70  Isolated Web Co
+11:51:55 PM  1000      4446      0.96      0.00 2481044  109232   0.69  Isolated Web Co
+11:51:55 PM  1000      4536      0.96      0.00 2674496  196604   1.25  Isolated Web Co
+11:51:55 PM  1000      4589     26.92      0.00 2907080  302576   1.92  Isolated Web Co
+11:51:55 PM  1000      4605      0.96      0.00 2529568  126820   0.80  Isolated Web Co
+11:51:55 PM  1000      4637      0.96      0.00 2547604  138452   0.88  Isolated Web Co
+11:51:55 PM  1000      4803      3.85      0.00 2511112  122452   0.78  Isolated Web Co
+11:51:55 PM  1000      4914      0.96      0.00 2523004  138904   0.88  Isolated Web Co
+11:51:55 PM  1000      5011      1.92      0.00 2500024  117220   0.74  Isolated Web Co
+11:51:55 PM  1000      5165      0.96      0.00 2487708  113680   0.72  Isolated Web Co
+11:51:55 PM  1000      5180      0.96      0.00 2498740  119556   0.76  Isolated Web Co
+11:51:55 PM  1000      5220      0.96      0.00 2482328  109128   0.69  Isolated Web Co
+11:51:55 PM  1000      5469      0.96      0.00 2549160  142936   0.91  Isolated Web Co
+11:51:55 PM  1000      5646     42.31      0.00 2513048  124144   0.79  Isolated Web Co
+11:51:55 PM  1000      5704      0.96      0.00 2481304  110856   0.70  Isolated Web Co
+11:51:55 PM  1000     32126      0.00      0.00 2463144  109108   0.69  Isolated Web Co
+11:51:55 PM  1000     35005   2142.31      0.00 34324576  367292   2.33  chrome
+11:51:55 PM  1000     35050     87.50      0.00 34734236  274152   1.74  chrome
+11:51:55 PM  1000     35051     13.46      0.00 34064912  131260   0.83  chrome
+11:51:55 PM  1000     35182   1006.73      0.00 1285630640  146108   0.93  chrome
+11:51:55 PM  1000     49115      3.85      0.00 1461531824  191020   1.21  code
+11:51:55 PM  1000     49179      0.96      0.00 34577268  178608   1.13  code
+11:51:55 PM  1000     49237     94.23      0.00 1480184320  388072   2.46  code
+11:51:55 PM  1000     49279     23.08      0.00 1461308524  116244   0.74  code
+11:51:55 PM  1000     49295     25.96      0.00 1461300524  156304   0.99  code
+11:51:55 PM  1000     49322      5.77      0.00 1461299592  113156   0.72  code
+11:51:55 PM  1000     49323     33.65      0.00 1461316600  106736   0.68  code
+11:51:55 PM  1000     56900      2.88      0.00   17356    5632   0.04  pidstat
+11:51:55 PM  1000     56901     82.69      0.00   33192    9728   0.06  sysbench
+
+11:51:54 PM   UID       PID   cswch/s nvcswch/s  Command
+11:51:55 PM     0        17     79.81      0.00  rcu_preempt
+11:51:55 PM     0        18      3.85      0.00  migration/0
+11:51:55 PM     0        23      7.69      0.00  migration/2
+11:51:55 PM     0        24      0.96      0.00  ksoftirqd/2
+11:51:55 PM     0        29     12.50      0.00  migration/4
+11:51:55 PM     0        30      0.96      0.00  ksoftirqd/4
+11:51:55 PM     0        35      8.65      0.00  migration/6
+11:51:55 PM     0        36      0.96      0.00  ksoftirqd/6
+11:51:55 PM     0        41     14.42      0.00  migration/8
+11:51:55 PM     0        47     10.58      0.00  migration/10
+11:51:55 PM     0        53      4.81      0.00  migration/12
+11:51:55 PM     0        59      6.73      0.00  migration/14
+11:51:55 PM     0        83      0.96      0.00  migration/7
+11:51:55 PM     0        89      1.92      0.00  migration/9
+11:51:55 PM     0        95      3.85      0.00  migration/11
+11:51:55 PM     0       101      0.96      0.00  migration/13
+11:51:55 PM     0       119      1.92      0.00  kcompactd0
+11:51:55 PM     0       153      2.88      0.96  kworker/11:1-mld
+11:51:55 PM     0       283      0.96      0.00  kworker/3:1H-kblockd
+11:51:55 PM   110       774     18.27      0.96  avahi-daemon
+11:51:55 PM     0       822      1.92      0.00  touchegg
+11:51:55 PM     0       884     75.96      0.00  irq/84-rtw89_pci
+11:51:55 PM     0       914     24.04      0.96  NetworkManager
+11:51:55 PM     0      1242     61.54      1.92  Xorg
+11:51:55 PM  1000      1501    189.42     12.50  pipewire-pulse
+11:51:55 PM  1000      1908     22.12      0.96  cinnamon
+11:51:55 PM  1000      2104     10.58      0.00  blueman-tray
+11:51:55 PM  1000      2263     35.58      0.00  firefox-bin
+11:51:55 PM  1000      2352      0.96      0.00  Socket Process
+11:51:55 PM  1000      2402     72.12      3.85  Privileged Cont
+11:51:55 PM  1000      2470      7.69      0.00  WebExtensions
+11:51:55 PM  1000      2570      5.77      0.00  Isolated Web Co
+11:51:55 PM  1000      2836      2.88      0.00  Isolated Web Co
+11:51:55 PM  1000      2839     20.19      0.00  Isolated Servic
+11:51:55 PM  1000      2963    149.04      4.81  Isolated Web Co
+11:51:55 PM  1000      3003     11.54      0.00  Isolated Web Co
+11:51:55 PM  1000      4259      1.92      0.00  Isolated Web Co
+11:51:55 PM  1000      4311      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4436      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4439      1.92      0.00  Isolated Web Co
+11:51:55 PM  1000      4446      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4536      1.92      0.00  Isolated Web Co
+11:51:55 PM  1000      4589      1.92      0.00  Isolated Web Co
+11:51:55 PM  1000      4605      4.81      0.00  Isolated Web Co
+11:51:55 PM  1000      4626      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4637      1.92      0.00  Isolated Web Co
+11:51:55 PM  1000      4650      5.77      0.00  Isolated Web Co
+11:51:55 PM  1000      4764      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4803      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4809      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4869      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4904      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4907      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      4914      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5011      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5014      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5113      2.88      0.00  Isolated Web Co
+11:51:55 PM  1000      5165      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5180      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5220      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5273      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5469      7.69      0.00  Isolated Web Co
+11:51:55 PM  1000      5546      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5549      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000      5646      1.92      0.96  Isolated Web Co
+11:51:55 PM  1000      5704      0.96      0.00  Isolated Web Co
+11:51:55 PM     0     22875      2.88      0.00  kworker/5:1-events
+11:51:55 PM     0     27141      1.92      0.00  kworker/12:0-events
+11:51:55 PM     0     30134      0.96      0.00  kworker/6:0-mm_percpu_wq
+11:51:55 PM  1000     32073      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000     32126      3.85      0.00  Isolated Web Co
+11:51:55 PM  1000     32169      0.96      0.00  Isolated Web Co
+11:51:55 PM  1000     35005     12.50      1.92  chrome
+11:51:55 PM  1000     35050      0.96      0.00  chrome
+11:51:55 PM  1000     35051      0.96      0.00  chrome
+11:51:55 PM  1000     35280      0.96      0.00  chrome
+11:51:55 PM     0     39852      1.92      0.00  kworker/3:1-events_freezable
+11:51:55 PM     0     43987      0.96      0.00  kworker/13:0-mm_percpu_wq
+11:51:55 PM     0     44016      0.96      0.00  kworker/9:4-mm_percpu_wq
+11:51:55 PM     0     44114      0.96      0.00  kworker/14:3-mm_percpu_wq
+11:51:55 PM     0     45130      0.96      0.00  kworker/2:5-mm_percpu_wq
+11:51:55 PM     0     45146      1.92      0.00  kworker/8:2-events
+11:51:55 PM     0     45732      1.92      0.00  kworker/10:0-mm_percpu_wq
+11:51:55 PM     0     46066      0.96      0.00  kworker/15:0-mm_percpu_wq
+11:51:55 PM     0     48072     52.88      0.96  kworker/u32:3-gfx_low
+11:51:55 PM     0     48837      2.88      0.00  kworker/1:1-events
+11:51:55 PM     0     48949      0.96      0.00  kworker/0:2-mm_percpu_wq
+11:51:55 PM     0     49030      0.96      0.00  kworker/4:3-mm_percpu_wq
+11:51:55 PM  1000     49115      7.69      0.00  code
+11:51:55 PM  1000     49179     20.19      0.00  code
+11:51:55 PM  1000     49237     31.73      2.88  code
+11:51:55 PM  1000     49279     15.38      0.96  code
+11:51:55 PM  1000     49295      3.85      0.00  code
+11:51:55 PM  1000     49322      0.96      0.00  code
+11:51:55 PM  1000     49323     10.58      0.00  code
+11:51:55 PM  1000     49758      9.62      0.00  Isolated Web Co
+11:51:55 PM     0     53138     24.04      0.00  kworker/u32:2-events_power_efficient
+11:51:55 PM  1000     56898      0.96      0.00  mpstat
+11:51:55 PM  1000     56899      0.96      0.00  vmstat
+11:51:55 PM  1000     56900      0.96      0.00  pidstat
+
+11:51:55 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:51:56 PM     0       884    0.00    1.00    0.00    0.00    1.00    11  irq/84-rtw89_pci
+11:51:56 PM     0       914    1.00    0.00    0.00    0.00    1.00    12  NetworkManager
+11:51:56 PM     0      1242    1.00    1.00    0.00    0.00    2.00     4  Xorg
+11:51:56 PM  1000      1497    0.00    1.00    0.00    0.00    1.00    12  pipewire
+11:51:56 PM  1000      1501    1.00    2.00    0.00    0.00    3.00     4  pipewire-pulse
+11:51:56 PM  1000      2263    5.00    3.00    0.00    0.00    8.00     6  firefox-bin
+11:51:56 PM  1000      2402    1.00    1.00    0.00    0.00    2.00     6  Privileged Cont
+11:51:56 PM  1000      2470    1.00    0.00    0.00    0.00    1.00     6  WebExtensions
+11:51:56 PM  1000      2570    2.00    2.00    0.00    0.00    4.00     2  Isolated Web Co
+11:51:56 PM  1000      2963    4.00    2.00    0.00    0.00    6.00     3  Isolated Web Co
+11:51:56 PM  1000      4311    1.00    0.00    0.00    0.00    1.00     8  Isolated Web Co
+11:51:56 PM  1000      4589    1.00    0.00    0.00    0.00    1.00     2  Isolated Web Co
+11:51:56 PM  1000      5165    1.00    0.00    0.00    0.00    1.00    10  Isolated Web Co
+11:51:56 PM  1000      5704    1.00    0.00    0.00    0.00    1.00     4  Isolated Web Co
+11:51:56 PM  1000     32073    0.00    1.00    0.00    0.00    1.00     9  Isolated Web Co
+11:51:56 PM  1000     49237    1.00    0.00    0.00    0.00    1.00    15  code
+11:51:56 PM  1000     49279    0.00    2.00    0.00    0.00    2.00     2  code
+11:51:56 PM  1000     49323    1.00    0.00    0.00    0.00    1.00     5  code
+11:51:56 PM  1000     49758    2.00    0.00    0.00    0.00    2.00     8  Isolated Web Co
+11:51:56 PM  1000     56900    1.00    3.00    0.00    0.00    4.00     1  pidstat
+11:51:56 PM  1000     56901  100.00    0.00    0.00    0.00  100.00     2  sysbench
+
+11:51:55 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:51:56 PM  1000      2263      1.00      0.00 12395608  741296   4.70  firefox-bin
+11:51:56 PM  1000      2470      2.00      0.00 2501044  132832   0.84  WebExtensions
+11:51:56 PM  1000      2570   1563.00      0.00 7944352  996904   6.33  Isolated Web Co
+11:51:56 PM  1000      2836      3.00      0.00 2492292  110280   0.70  Isolated Web Co
+11:51:56 PM  1000      3003    120.00      0.00 2799964  311384   1.98  Isolated Web Co
+11:51:56 PM  1000      4439      3.00      0.00 2522032  129144   0.82  Isolated Web Co
+11:51:56 PM  1000      4536      3.00      0.00 2674496  196604   1.25  Isolated Web Co
+11:51:56 PM  1000      4589     71.00      0.00 2907080  302536   1.92  Isolated Web Co
+11:51:56 PM  1000      4605      5.00      0.00 2529568  126820   0.80  Isolated Web Co
+11:51:56 PM  1000      4809      3.00      0.00 2510608  123392   0.78  Isolated Web Co
+11:51:56 PM  1000      4869      3.00      0.00 2516492  124108   0.79  Isolated Web Co
+11:51:56 PM  1000      5113      3.00      0.00 2581424  154276   0.98  Isolated Web Co
+11:51:56 PM  1000      5273      4.00      0.00 2529716  133364   0.85  Isolated Web Co
+11:51:56 PM  1000      5546      1.00      0.00 2481332  107728   0.68  Isolated Web Co
+11:51:56 PM  1000      5549      1.00      0.00 2489808  122708   0.78  Isolated Web Co
+11:51:56 PM  1000      5646      4.00      0.00 2513048  124144   0.79  Isolated Web Co
+11:51:56 PM  1000      5704      1.00      0.00 2481304  110856   0.70  Isolated Web Co
+11:51:56 PM  1000     32169      0.00      0.00 2461068  101048   0.64  Isolated Web Co
+11:51:56 PM  1000     35005      3.00      0.00 34324576  364920   2.32  chrome
+11:51:56 PM  1000     49115      8.00      0.00 1461531824  191020   1.21  code
+11:51:56 PM  1000     49179      0.00      0.00 34574900  178460   1.13  code
+11:51:56 PM  1000     49237     27.00      0.00 1480181952  388064   2.46  code
+11:51:56 PM  1000     49279    320.00      0.00 1461308524  116372   0.74  code
+11:51:56 PM  1000     49758      1.00      0.00 3262756  544248   3.45  Isolated Web Co
+11:51:56 PM  1000     50048      2.00      0.00 1283793316   61780   0.39  chrome
+11:51:56 PM  1000     56908    118.00      0.00    2800    1536   0.01  sh
+11:51:56 PM  1000     56909    337.00      0.00   15524    3584   0.02  cpuUsage.sh
+11:51:56 PM  1000     56916     99.00      0.00   13872    1920   0.01  sleep
+
+11:51:55 PM   UID       PID   cswch/s nvcswch/s  Command
+11:51:56 PM     0        17     94.00      0.00  rcu_preempt
+11:51:56 PM     0        18      3.00      0.00  migration/0
+11:51:56 PM     0        23      7.00      0.00  migration/2
+11:51:56 PM     0        24      1.00      0.00  ksoftirqd/2
+11:51:56 PM     0        29     11.00      0.00  migration/4
+11:51:56 PM     0        35      9.00      0.00  migration/6
+11:51:56 PM     0        41     11.00      0.00  migration/8
+11:51:56 PM     0        47      9.00      0.00  migration/10
+11:51:56 PM     0        53      7.00      0.00  migration/12
+11:51:56 PM     0        59      5.00      0.00  migration/14
+11:51:56 PM     0        71      1.00      0.00  migration/3
+11:51:56 PM     0        89      1.00      0.00  migration/9
+11:51:56 PM     0        95      8.00      0.00  migration/11
+11:51:56 PM     0       101      1.00      0.00  migration/13
+11:51:56 PM     0       107      1.00      0.00  migration/15
+11:51:56 PM     0       119      2.00      0.00  kcompactd0
+11:51:56 PM     0       153      2.00      0.00  kworker/11:1-mld
+11:51:56 PM   110       774      7.00      0.00  avahi-daemon
+11:51:56 PM     0       884     66.00      0.00  irq/84-rtw89_pci
+11:51:56 PM     0       914     12.00      0.00  NetworkManager
+11:51:56 PM     0      1242     21.00      1.00  Xorg
+11:51:56 PM  1000      1501    189.00      3.00  pipewire-pulse
+11:51:56 PM  1000      2104     10.00      0.00  blueman-tray
+11:51:56 PM  1000      2263     36.00      2.00  firefox-bin
+11:51:56 PM  1000      2402     69.00      3.00  Privileged Cont
+11:51:56 PM  1000      2470      9.00      0.00  WebExtensions
+11:51:56 PM  1000      2570      1.00      3.00  Isolated Web Co
+11:51:56 PM  1000      2836      1.00      1.00  Isolated Web Co
+11:51:56 PM  1000      2963    150.00     10.00  Isolated Web Co
+11:51:56 PM  1000      3003     21.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4259      2.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4311      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4436      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4439      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4446      1.00      1.00  Isolated Web Co
+11:51:56 PM  1000      4536      5.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4589      5.00      1.00  Isolated Web Co
+11:51:56 PM  1000      4605      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4626      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4637      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4650      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4764      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4803      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4809      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4869      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      4904      1.00      1.00  Isolated Web Co
+11:51:56 PM  1000      4907      1.00      2.00  Isolated Web Co
+11:51:56 PM  1000      4914      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5011      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5014      1.00      1.00  Isolated Web Co
+11:51:56 PM  1000      5113      2.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5165      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5180      1.00      1.00  Isolated Web Co
+11:51:56 PM  1000      5220      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5273      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5469      2.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5546      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5549      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5646      2.00      0.00  Isolated Web Co
+11:51:56 PM  1000      5704      2.00      0.00  Isolated Web Co
+11:51:56 PM     0     22875      1.00      0.00  kworker/5:1-mm_percpu_wq
+11:51:56 PM     0     27141      2.00      0.00  kworker/12:0-mm_percpu_wq
+11:51:56 PM     0     30134      3.00      0.00  kworker/6:0-events
+11:51:56 PM  1000     32073      4.00      0.00  Isolated Web Co
+11:51:56 PM  1000     32126      1.00      0.00  Isolated Web Co
+11:51:56 PM  1000     32169      7.00      0.00  Isolated Web Co
+11:51:56 PM  1000     35005      3.00      1.00  chrome
+11:51:56 PM  1000     35280      1.00      0.00  chrome
+11:51:56 PM  1000     35925      1.00      0.00  chrome
+11:51:56 PM     0     39852      4.00      0.00  kworker/3:1-events
+11:51:56 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:51:56 PM     0     44016      1.00      0.00  kworker/9:4-mm_percpu_wq
+11:51:56 PM     0     44114      1.00      0.00  kworker/14:3-mm_percpu_wq
+11:51:56 PM     0     45130      5.00      0.00  kworker/2:5-events
+11:51:56 PM     0     45146      3.00      0.00  kworker/8:2-events
+11:51:56 PM     0     45732      1.00      0.00  kworker/10:0-mm_percpu_wq
+11:51:56 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:51:56 PM     0     48072     58.00      0.00  kworker/u32:3-events_unbound
+11:51:56 PM     0     48837      4.00      0.00  kworker/1:1-events
+11:51:56 PM     0     48949      5.00      0.00  kworker/0:2-events
+11:51:56 PM     0     49030      2.00      0.00  kworker/4:3-events
+11:51:56 PM  1000     49115      1.00      0.00  code
+11:51:56 PM  1000     49179      2.00      0.00  code
+11:51:56 PM  1000     49183      1.00      0.00  code
+11:51:56 PM  1000     49237      9.00      0.00  code
+11:51:56 PM  1000     49279     25.00      2.00  code
+11:51:56 PM  1000     49295      2.00      0.00  code
+11:51:56 PM  1000     49323     12.00      3.00  code
+11:51:56 PM  1000     49758     11.00      1.00  Isolated Web Co
+11:51:56 PM  1000     50048      1.00      0.00  chrome
+11:51:56 PM     0     55897      1.00      0.00  kworker/u33:0-rtw89_tx_wq
+11:51:56 PM  1000     56898      1.00      0.00  mpstat
+11:51:56 PM  1000     56899      1.00      0.00  vmstat
+11:51:56 PM  1000     56900      1.00      0.00  pidstat
+11:51:56 PM  1000     56908      2.00      1.00  sh
+11:51:56 PM  1000     56909     14.00      2.00  cpuUsage.sh
+11:51:56 PM  1000     56916      1.00      1.00  sleep
+
+11:51:56 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:51:57 PM     0        89    0.00    1.00    0.00    0.00    1.00     9  migration/9
+11:51:57 PM  1000      1497    0.00    1.00    0.00    0.00    1.00    12  pipewire
+11:51:57 PM  1000      1501    0.00    1.00    0.00    0.00    1.00    14  pipewire-pulse
+11:51:57 PM  1000      2104    0.00    1.00    0.00    0.00    1.00     4  blueman-tray
+11:51:57 PM  1000      2263    5.00    4.00    0.00    0.00    9.00    15  firefox-bin
+11:51:57 PM  1000      2402    1.00    1.00    0.00    0.00    2.00    13  Privileged Cont
+11:51:57 PM  1000      2570    1.00    0.00    0.00    0.00    1.00     6  Isolated Web Co
+11:51:57 PM  1000      2882    7.00    6.00    0.00    0.00   13.00    14  mintreport-tray
+11:51:57 PM  1000      2963    4.00    2.00    0.00    0.00    6.00     6  Isolated Web Co
+11:51:57 PM  1000      3003    1.00    0.00    0.00    0.00    1.00    14  Isolated Web Co
+11:51:57 PM  1000      4259    1.00    1.00    0.00    0.00    2.00    12  Isolated Web Co
+11:51:57 PM  1000      4809    1.00    0.00    0.00    0.00    1.00     5  Isolated Web Co
+11:51:57 PM  1000      5011    1.00    0.00    0.00    0.00    1.00     3  Isolated Web Co
+11:51:57 PM  1000      5469    1.00    2.00    0.00    0.00    3.00    14  Isolated Web Co
+11:51:57 PM     0     48072    0.00    1.00    0.00    0.00    1.00     2  kworker/u32:3-gfx_low
+11:51:57 PM  1000     49115    0.00    1.00    0.00    0.00    1.00    12  code
+11:51:57 PM  1000     49179    0.00    1.00    0.00    0.00    1.00     8  code
+11:51:57 PM  1000     49279    1.00    0.00    0.00    0.00    1.00    10  code
+11:51:57 PM  1000     49323    1.00    0.00    0.00    0.00    1.00    12  code
+11:51:57 PM  1000     49758    1.00    0.00    0.00    0.00    1.00    12  Isolated Web Co
+11:51:57 PM  1000     56900    1.00    4.00    0.00    0.00    5.00     1  pidstat
+11:51:57 PM  1000     56901  100.00    0.00    0.00    0.00  100.00     2  sysbench
+
+11:51:56 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:51:57 PM  1000      2263      2.00      0.00 12395608  741296   4.70  firefox-bin
+11:51:57 PM  1000      2402      1.00      0.00 2723484  245180   1.56  Privileged Cont
+11:51:57 PM  1000      2470      1.00      0.00 2501044  132832   0.84  WebExtensions
+11:51:57 PM  1000      2570      1.00      0.00 7944352  996904   6.33  Isolated Web Co
+11:51:57 PM  1000      3003    135.00      0.00 2799964  311492   1.98  Isolated Web Co
+11:51:57 PM  1000      4259    402.00      0.00 2779296  198792   1.26  Isolated Web Co
+11:51:57 PM  1000      4605      1.00      0.00 2529568  126820   0.80  Isolated Web Co
+11:51:57 PM  1000      4626      3.00      0.00 2539960  136592   0.87  Isolated Web Co
+11:51:57 PM  1000      4904      1.00      0.00 2501044  116196   0.74  Isolated Web Co
+11:51:57 PM  1000      5014      3.00      0.00 2520504  129680   0.82  Isolated Web Co
+11:51:57 PM  1000      5469     51.00      0.00 2549176  142792   0.91  Isolated Web Co
+11:51:57 PM  1000      5646      1.00      0.00 2513048  124144   0.79  Isolated Web Co
+11:51:57 PM  1000     49179      3.00      0.00 34574900  177980   1.13  code
+11:51:57 PM  1000     49237     27.00      0.00 1480181952  388064   2.46  code
+11:51:57 PM  1000     49279     22.00      0.00 1461308524  116372   0.74  code
+11:51:57 PM  1000     49758      3.00      0.00 3262756  544248   3.45  Isolated Web Co
+11:51:57 PM  1000     56900      7.00      0.00   17496    5632   0.04  pidstat
+
+11:51:56 PM   UID       PID   cswch/s nvcswch/s  Command
+11:51:57 PM     0        17     79.00      0.00  rcu_preempt
+11:51:57 PM     0        18      3.00      0.00  migration/0
+11:51:57 PM     0        23      9.00      0.00  migration/2
+11:51:57 PM     0        29     11.00      0.00  migration/4
+11:51:57 PM     0        35     18.00      0.00  migration/6
+11:51:57 PM     0        41      5.00      0.00  migration/8
+11:51:57 PM     0        47     14.00      0.00  migration/10
+11:51:57 PM     0        53      8.00      0.00  migration/12
+11:51:57 PM     0        59      5.00      0.00  migration/14
+11:51:57 PM     0        65      1.00      0.00  migration/1
+11:51:57 PM     0        71      2.00      0.00  migration/3
+11:51:57 PM     0        77      3.00      0.00  migration/5
+11:51:57 PM     0        83      2.00      0.00  migration/7
+11:51:57 PM     0        89      4.00      0.00  migration/9
+11:51:57 PM     0        95      1.00      0.00  migration/11
+11:51:57 PM     0       101      2.00      0.00  migration/13
+11:51:57 PM     0       107      4.00      0.00  migration/15
+11:51:57 PM     0       119      2.00      0.00  kcompactd0
+11:51:57 PM     0       150      1.00      0.00  kworker/7:1-mm_percpu_wq
+11:51:57 PM     0       153      3.00      0.00  kworker/11:1-mld
+11:51:57 PM     0       248      2.00      0.00  kworker/8:1H-kblockd
+11:51:57 PM     0       367      3.00      0.00  jbd2/nvme0n1p7-8
+11:51:57 PM   110       774     15.00      0.00  avahi-daemon
+11:51:57 PM     0       884     88.00      0.00  irq/84-rtw89_pci
+11:51:57 PM     0       914     26.00      1.00  NetworkManager
+11:51:57 PM     0       919      1.00      0.00  wpa_supplicant
+11:51:57 PM     0      1242     21.00      0.00  Xorg
+11:51:57 PM  1000      1501    188.00      4.00  pipewire-pulse
+11:51:57 PM  1000      2104     10.00      2.00  blueman-tray
+11:51:57 PM  1000      2263     44.00      1.00  firefox-bin
+11:51:57 PM  1000      2352      1.00      0.00  Socket Process
+11:51:57 PM  1000      2402     71.00      2.00  Privileged Cont
+11:51:57 PM  1000      2470     11.00      1.00  WebExtensions
+11:51:57 PM  1000      2570      6.00      0.00  Isolated Web Co
+11:51:57 PM  1000      2836      6.00      2.00  Isolated Web Co
+11:51:57 PM  1000      2839      1.00      0.00  Isolated Servic
+11:51:57 PM  1000      2882      1.00      3.00  mintreport-tray
+11:51:57 PM  1000      2963    148.00      2.00  Isolated Web Co
+11:51:57 PM  1000      3003      5.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4259      9.00      2.00  Isolated Web Co
+11:51:57 PM  1000      4311      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4436      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4439      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4446      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4536      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4589      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4605      1.00      1.00  Isolated Web Co
+11:51:57 PM  1000      4626      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4637      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4650      1.00      1.00  Isolated Web Co
+11:51:57 PM  1000      4764      1.00      1.00  Isolated Web Co
+11:51:57 PM  1000      4803      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4809      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4869      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4904      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4907      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      4914      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5011      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5014      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5113      3.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5165      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5180      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5220      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5273      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5469      1.00      3.00  Isolated Web Co
+11:51:57 PM  1000      5546      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5549      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5646      2.00      0.00  Isolated Web Co
+11:51:57 PM  1000      5704      1.00      0.00  Isolated Web Co
+11:51:57 PM     0     22875      3.00      0.00  kworker/5:1-events
+11:51:57 PM     0     27141      2.00      0.00  kworker/12:0-mm_percpu_wq
+11:51:57 PM     0     30134      2.00      0.00  kworker/6:0-events
+11:51:57 PM  1000     32073      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000     32126      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000     32169      1.00      0.00  Isolated Web Co
+11:51:57 PM  1000     35005      2.00      0.00  chrome
+11:51:57 PM  1000     35280      1.00      0.00  chrome
+11:51:57 PM     0     39852      2.00      0.00  kworker/3:1-events_freezable
+11:51:57 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:51:57 PM     0     44016      2.00      0.00  kworker/9:4-events
+11:51:57 PM     0     44114      2.00      0.00  kworker/14:3-events
+11:51:57 PM     0     45130      1.00      0.00  kworker/2:5-mm_percpu_wq
+11:51:57 PM     0     45146      3.00      0.00  kworker/8:2-events
+11:51:57 PM     0     45732      1.00      0.00  kworker/10:0-mm_percpu_wq
+11:51:57 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:51:57 PM     0     48072     52.00      1.00  kworker/u32:3-gfx_low
+11:51:57 PM     0     48837      2.00      0.00  kworker/1:1-events
+11:51:57 PM     0     48949      2.00      0.00  kworker/0:2-events
+11:51:57 PM     0     49030      1.00      0.00  kworker/4:3-mm_percpu_wq
+11:51:57 PM  1000     49115      2.00      0.00  code
+11:51:57 PM  1000     49179      2.00      0.00  code
+11:51:57 PM  1000     49237     12.00      3.00  code
+11:51:57 PM  1000     49279     22.00      0.00  code
+11:51:57 PM  1000     49295      2.00      2.00  code
+11:51:57 PM  1000     49323      9.00      1.00  code
+11:51:57 PM  1000     49375      2.00      0.00  code
+11:51:57 PM  1000     49758     15.00      2.00  Isolated Web Co
+11:51:57 PM     0     55897      1.00      0.00  kworker/u33:0-rtw89_tx_wq
+11:51:57 PM  1000     56898      1.00      0.00  mpstat
+11:51:57 PM  1000     56899      2.00      1.00  vmstat
+11:51:57 PM  1000     56900      1.00      0.00  pidstat
+
+11:51:57 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:51:58 PM  1000      1497    0.00    1.00    0.00    0.00    1.00    12  pipewire
+11:51:58 PM  1000      1501    0.00    1.00    0.00    0.00    1.00     1  pipewire-pulse
+11:51:58 PM  1000      2263   10.00   10.00    0.00    0.00   20.00    12  firefox-bin
+11:51:58 PM  1000      2402    1.00    0.00    0.00    0.00    1.00    13  Privileged Cont
+11:51:58 PM  1000      2963    5.00    3.00    0.00    0.00    8.00     6  Isolated Web Co
+11:51:58 PM  1000      3003    2.00    1.00    0.00    0.00    3.00     0  Isolated Web Co
+11:51:58 PM  1000      4436    1.00    0.00    0.00    0.00    1.00     1  Isolated Web Co
+11:51:58 PM  1000      4589    1.00    0.00    0.00    0.00    1.00     1  Isolated Web Co
+11:51:58 PM  1000      5180    0.00    1.00    0.00    0.00    1.00     2  Isolated Web Co
+11:51:58 PM  1000      5546    0.00    1.00    0.00    0.00    1.00     1  Isolated Web Co
+11:51:58 PM  1000     49237    1.00    0.00    0.00    0.00    1.00     8  code
+11:51:58 PM  1000     49758    2.00    0.00    0.00    0.00    2.00     4  Isolated Web Co
+11:51:58 PM  1000     56900    1.00    3.00    0.00    0.00    4.00     0  pidstat
+11:51:58 PM  1000     56901  100.00    0.00    0.00    0.00  100.00     2  sysbench
+
+11:51:57 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:51:58 PM  1000      2263    171.00      0.00 12395624  741936   4.71  firefox-bin
+11:51:58 PM  1000      2402      1.00      0.00 2723484  245180   1.56  Privileged Cont
+11:51:58 PM  1000      2470      1.00      0.00 2501044  132832   0.84  WebExtensions
+11:51:58 PM  1000      2570     42.00      0.00 7944352  993156   6.30  Isolated Web Co
+11:51:58 PM  1000      2963    766.00      0.00 11694688  763604   4.85  Isolated Web Co
+11:51:58 PM  1000      3003   1150.00      0.00 2799964  316100   2.01  Isolated Web Co
+11:51:58 PM  1000      4259      5.00      0.00 2779296  197352   1.25  Isolated Web Co
+11:51:58 PM  1000      4446      1.00      0.00 2481044  109232   0.69  Isolated Web Co
+11:51:58 PM  1000      4589      1.00      0.00 2907080  302536   1.92  Isolated Web Co
+11:51:58 PM  1000      4637      6.00      0.00 2547604  138452   0.88  Isolated Web Co
+11:51:58 PM  1000      4809      2.00      0.00 2510608  123392   0.78  Isolated Web Co
+11:51:58 PM  1000      5113      1.00      0.00 2581424  154276   0.98  Isolated Web Co
+11:51:58 PM  1000      5273      1.00      0.00 2529716  133364   0.85  Isolated Web Co
+11:51:58 PM  1000      5469      1.00      0.00 2549176  142792   0.91  Isolated Web Co
+11:51:58 PM  1000     35005      2.00      0.00 34324576  364920   2.32  chrome
+11:51:58 PM  1000     35067      4.00      0.00 34291624   59576   0.38  chrome
+11:51:58 PM  1000     35618      1.00      0.00 34035280   85624   0.54  chrome
+11:51:58 PM  1000     49237     53.00      0.00 1480181952  388052   2.46  code
+11:51:58 PM  1000     49279     24.00      0.00 1461308524  116076   0.74  code
+
+11:51:57 PM   UID       PID   cswch/s nvcswch/s  Command
+11:51:58 PM     0        16      1.00      0.00  ksoftirqd/0
+11:51:58 PM     0        17     95.00      0.00  rcu_preempt
+11:51:58 PM     0        18      9.00      0.00  migration/0
+11:51:58 PM     0        23      8.00      0.00  migration/2
+11:51:58 PM     0        29     17.00      0.00  migration/4
+11:51:58 PM     0        35     20.00      0.00  migration/6
+11:51:58 PM     0        41     11.00      0.00  migration/8
+11:51:58 PM     0        47     13.00      0.00  migration/10
+11:51:58 PM     0        48      1.00      0.00  ksoftirqd/10
+11:51:58 PM     0        53      7.00      0.00  migration/12
+11:51:58 PM     0        59      8.00      0.00  migration/14
+11:51:58 PM     0        65      1.00      0.00  migration/1
+11:51:58 PM     0        71      1.00      0.00  migration/3
+11:51:58 PM     0        77      5.00      0.00  migration/5
+11:51:58 PM     0        89      1.00      0.00  migration/9
+11:51:58 PM     0        95      2.00      0.00  migration/11
+11:51:58 PM     0       107      9.00      0.00  migration/15
+11:51:58 PM     0       119      2.00      0.00  kcompactd0
+11:51:58 PM     0       153      2.00      0.00  kworker/11:1-mm_percpu_wq
+11:51:58 PM     0       247      1.00      0.00  kworker/6:1H-kblockd
+11:51:58 PM     0       255      1.00      0.00  kworker/10:1H-kblockd
+11:51:58 PM   110       774      7.00      0.00  avahi-daemon
+11:51:58 PM     0       884     28.00      0.00  irq/84-rtw89_pci
+11:51:58 PM     0       914     13.00      1.00  NetworkManager
+11:51:58 PM     0      1242     21.00      0.00  Xorg
+11:51:58 PM  1000      1501    189.00     12.00  pipewire-pulse
+11:51:58 PM  1000      2104     10.00      0.00  blueman-tray
+11:51:58 PM  1000      2263     38.00      6.00  firefox-bin
+11:51:58 PM  1000      2352      1.00      0.00  Socket Process
+11:51:58 PM  1000      2402     70.00      0.00  Privileged Cont
+11:51:58 PM  1000      2470      8.00      4.00  WebExtensions
+11:51:58 PM  1000      2570      7.00      2.00  Isolated Web Co
+11:51:58 PM  1000      2836      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      2963    158.00      9.00  Isolated Web Co
+11:51:58 PM  1000      3003     11.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4259      7.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4311      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4436      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4439      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4446      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4536      2.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4589      2.00      2.00  Isolated Web Co
+11:51:58 PM  1000      4605      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4626      1.00      1.00  Isolated Web Co
+11:51:58 PM  1000      4637      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4764      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4803      1.00      2.00  Isolated Web Co
+11:51:58 PM  1000      4809      5.00      1.00  Isolated Web Co
+11:51:58 PM  1000      4869      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4904      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4907      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      4914      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5011      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5014      1.00      1.00  Isolated Web Co
+11:51:58 PM  1000      5113      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5165      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5180      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5220      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5273      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5469      2.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5546      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5549      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000      5646      1.00      2.00  Isolated Web Co
+11:51:58 PM  1000      5704      1.00      1.00  Isolated Web Co
+11:51:58 PM     0     22875      1.00      0.00  kworker/5:1-mm_percpu_wq
+11:51:58 PM     0     27141      1.00      0.00  kworker/12:0-mm_percpu_wq
+11:51:58 PM     0     30134      1.00      0.00  kworker/6:0-mm_percpu_wq
+11:51:58 PM  1000     32073      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000     32126      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000     32169      1.00      0.00  Isolated Web Co
+11:51:58 PM  1000     35005      2.00      0.00  chrome
+11:51:58 PM  1000     35067      1.00      0.00  chrome
+11:51:58 PM  1000     35280      1.00      0.00  chrome
+11:51:58 PM  1000     35618      1.00      0.00  chrome
+11:51:58 PM  1000     35925      1.00      0.00  chrome
+11:51:58 PM     0     39852      3.00      0.00  kworker/3:1-events
+11:51:58 PM     0     44016      1.00      0.00  kworker/9:4-mm_percpu_wq
+11:51:58 PM     0     44114      1.00      0.00  kworker/14:3-mm_percpu_wq
+11:51:58 PM     0     45130      4.00      0.00  kworker/2:5-events
+11:51:58 PM     0     45146      2.00      0.00  kworker/8:2-events
+11:51:58 PM     0     45732      3.00      0.00  kworker/10:0-mm_percpu_wq
+11:51:58 PM     0     46066      1.00      1.00  kworker/15:0-mm_percpu_wq
+11:51:58 PM     0     48072     55.00      2.00  kworker/u32:3-gfx_low
+11:51:58 PM     0     48837      5.00      0.00  kworker/1:1-events
+11:51:58 PM     0     48949      3.00      0.00  kworker/0:2-events
+11:51:58 PM     0     49030      3.00      0.00  kworker/4:3-mm_percpu_wq
+11:51:58 PM  1000     49237     11.00      2.00  code
+11:51:58 PM  1000     49279     11.00      2.00  code
+11:51:58 PM  1000     49295      2.00      0.00  code
+11:51:58 PM  1000     49323     12.00      0.00  code
+11:51:58 PM  1000     49758     10.00      5.00  Isolated Web Co
+11:51:58 PM     0     53138      2.00      0.00  kworker/u32:2-ext4-rsv-conversion
+11:51:58 PM  1000     56898      1.00      0.00  mpstat
+11:51:58 PM  1000     56899      1.00      0.00  vmstat
+11:51:58 PM  1000     56900      1.00      3.00  pidstat
+
+11:51:58 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:51:59 PM     0        17    0.00    1.00    0.00    0.00    1.00    14  rcu_preempt
+11:51:59 PM     0        35    0.00    1.00    0.00    1.00    1.00     6  migration/6
+11:51:59 PM     0       884    0.00    1.00    0.00    0.00    1.00    11  irq/84-rtw89_pci
+11:51:59 PM  1000      1497    0.00    1.00    0.00    0.00    1.00    12  pipewire
+11:51:59 PM  1000      1501    1.00    1.00    0.00    0.00    2.00    14  pipewire-pulse
+11:51:59 PM  1000      1908    0.00    1.00    0.00    0.00    1.00     8  cinnamon
+11:51:59 PM  1000      2263   53.00   64.00    0.00    0.00  117.00     6  firefox-bin
+11:51:59 PM  1000      2402    1.00    1.00    0.00    0.00    2.00    13  Privileged Cont
+11:51:59 PM  1000      2470    1.00    0.00    0.00    0.00    1.00     1  WebExtensions
+11:51:59 PM  1000      2570    1.00    0.00    0.00    0.00    1.00     4  Isolated Web Co
+11:51:59 PM  1000      2963    5.00    2.00    0.00    0.00    7.00     8  Isolated Web Co
+11:51:59 PM  1000      3003    1.00    1.00    0.00    0.00    2.00     0  Isolated Web Co
+11:51:59 PM  1000      4536    2.00    3.00    0.00    0.00    5.00     7  Isolated Web Co
+11:51:59 PM  1000      5469    1.00    0.00    0.00    0.00    1.00    14  Isolated Web Co
+11:51:59 PM     0     48072    0.00    1.00    0.00    0.00    1.00    15  kworker/u32:3-gfx_low
+11:51:59 PM  1000     49279    0.00    1.00    0.00    0.00    1.00     4  code
+11:51:59 PM  1000     49323    1.00    1.00    0.00    0.00    2.00    13  code
+11:51:59 PM  1000     49758    1.00    0.00    0.00    0.00    1.00     4  Isolated Web Co
+11:51:59 PM  1000     56900    2.00    3.00    0.00    0.00    5.00     1  pidstat
+11:51:59 PM  1000     56901  100.00    1.00    0.00    0.00  101.00     2  sysbench
+
+11:51:58 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:51:59 PM  1000      1908      3.00      0.00 5279180  262404   1.67  cinnamon
+11:51:59 PM  1000      2263    616.00      0.00 12395640  738260   4.69  firefox-bin
+11:51:59 PM  1000      2470      2.00      0.00 2501044  132960   0.84  WebExtensions
+11:51:59 PM  1000      2570      2.00      0.00 7944352  993156   6.30  Isolated Web Co
+11:51:59 PM  1000      2836      1.00      0.00 2492292  110280   0.70  Isolated Web Co
+11:51:59 PM  1000      2963      1.00      0.00 11694688  763604   4.85  Isolated Web Co
+11:51:59 PM  1000      3003    797.00      0.00 2799964  313512   1.99  Isolated Web Co
+11:51:59 PM  1000      4536    124.00      0.00 2674512  196608   1.25  Isolated Web Co
+11:51:59 PM  1000      4626      1.00      0.00 2539960  136592   0.87  Isolated Web Co
+11:51:59 PM  1000      4764      6.00      0.00 2569004  146048   0.93  Isolated Web Co
+11:51:59 PM  1000      4803      2.00      0.00 2511112  122452   0.78  Isolated Web Co
+11:51:59 PM  1000      4869      2.00      0.00 2516492  124108   0.79  Isolated Web Co
+11:51:59 PM  1000      5113      1.00      0.00 2581424  154276   0.98  Isolated Web Co
+11:51:59 PM  1000      5469      1.00      0.00 2549176  142792   0.91  Isolated Web Co
+11:51:59 PM  1000     35005      7.00      0.00 34324576  364920   2.32  chrome
+11:51:59 PM  1000     35051     14.00      0.00 34064912  131260   0.83  chrome
+11:51:59 PM  1000     49115      6.00      0.00 1461531824  191020   1.21  code
+11:51:59 PM  1000     49237     28.00      0.00 1480181952  388180   2.46  code
+11:51:59 PM  1000     49279     23.00      0.00 1461308524  116076   0.74  code
+11:51:59 PM  1000     49295     11.00      0.00 1461300524  156304   0.99  code
+11:51:59 PM  1000     49322      7.00      0.00 1461299592  113156   0.72  code
+11:51:59 PM  1000     49323     13.00      0.00 1461316600  106736   0.68  code
+11:51:59 PM  1000     49758      3.00      0.00 3262756  544248   3.45  Isolated Web Co
+
+11:51:58 PM   UID       PID   cswch/s nvcswch/s  Command
+11:51:59 PM     0        16      1.00      0.00  ksoftirqd/0
+11:51:59 PM     0        17    105.00      0.00  rcu_preempt
+11:51:59 PM     0        18      6.00      0.00  migration/0
+11:51:59 PM     0        23      4.00      0.00  migration/2
+11:51:59 PM     0        29     27.00      0.00  migration/4
+11:51:59 PM     0        35     22.00      0.00  migration/6
+11:51:59 PM     0        41     10.00      0.00  migration/8
+11:51:59 PM     0        47     13.00      0.00  migration/10
+11:51:59 PM     0        53     11.00      0.00  migration/12
+11:51:59 PM     0        59     10.00      0.00  migration/14
+11:51:59 PM     0        65      1.00      0.00  migration/1
+11:51:59 PM     0        66      1.00      0.00  ksoftirqd/1
+11:51:59 PM     0        77      4.00      0.00  migration/5
+11:51:59 PM     0       101      4.00      0.00  migration/13
+11:51:59 PM     0       107      4.00      0.00  migration/15
+11:51:59 PM     0       119      2.00      0.00  kcompactd0
+11:51:59 PM     0       150      1.00      0.00  kworker/7:1-mm_percpu_wq
+11:51:59 PM   110       774      7.00      0.00  avahi-daemon
+11:51:59 PM     0       884     59.00      0.00  irq/84-rtw89_pci
+11:51:59 PM     0       914     11.00      1.00  NetworkManager
+11:51:59 PM     0      1242     23.00      0.00  Xorg
+11:51:59 PM  1000      1501    190.00     26.00  pipewire-pulse
+11:51:59 PM  1000      1908      1.00      0.00  cinnamon
+11:51:59 PM  1000      2104     10.00      1.00  blueman-tray
+11:51:59 PM  1000      2263     38.00      3.00  firefox-bin
+11:51:59 PM  1000      2402     71.00      9.00  Privileged Cont
+11:51:59 PM  1000      2470      8.00      0.00  WebExtensions
+11:51:59 PM  1000      2570      2.00      1.00  Isolated Web Co
+11:51:59 PM  1000      2836      2.00      0.00  Isolated Web Co
+11:51:59 PM  1000      2963    146.00     12.00  Isolated Web Co
+11:51:59 PM  1000      3003     12.00      2.00  Isolated Web Co
+11:51:59 PM  1000      4259      2.00      1.00  Isolated Web Co
+11:51:59 PM  1000      4311      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4436      1.00      1.00  Isolated Web Co
+11:51:59 PM  1000      4439      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4446      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4536      5.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4589      2.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4605      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4626      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4637      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4650      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4764      4.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4803      4.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4809      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4869      4.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4904      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4907      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      4914      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5011      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5014      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5113      2.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5165      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5180      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5220      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5273      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5469      4.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5546      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5549      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5646      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000      5704      1.00      0.00  Isolated Web Co
+11:51:59 PM     0     22875      2.00      0.00  kworker/5:1-events
+11:51:59 PM     0     27141      1.00      0.00  kworker/12:0-mm_percpu_wq
+11:51:59 PM     0     30134      1.00      0.00  kworker/6:0-mm_percpu_wq
+11:51:59 PM  1000     32073      4.00      0.00  Isolated Web Co
+11:51:59 PM  1000     32126      1.00      0.00  Isolated Web Co
+11:51:59 PM  1000     32169      4.00      0.00  Isolated Web Co
+11:51:59 PM  1000     35005      6.00      0.00  chrome
+11:51:59 PM  1000     35050      1.00      1.00  chrome
+11:51:59 PM  1000     35051      1.00      0.00  chrome
+11:51:59 PM  1000     35280      1.00      0.00  chrome
+11:51:59 PM     0     39852      1.00      0.00  kworker/3:1-events_freezable
+11:51:59 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:51:59 PM     0     44114      2.00      0.00  kworker/14:3-events
+11:51:59 PM     0     45130      1.00      0.00  kworker/2:5-mm_percpu_wq
+11:51:59 PM     0     45146      2.00      0.00  kworker/8:2-events
+11:51:59 PM     0     45732      2.00      0.00  kworker/10:0-events
+11:51:59 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:51:59 PM     0     48072     49.00      1.00  kworker/u32:3-gfx_low
+11:51:59 PM     0     48837      2.00      0.00  kworker/1:1-events
+11:51:59 PM     0     48949      1.00      0.00  kworker/0:2-mm_percpu_wq
+11:51:59 PM     0     49030      1.00      0.00  kworker/4:3-mm_percpu_wq
+11:51:59 PM  1000     49115      1.00      0.00  code
+11:51:59 PM  1000     49179      1.00      0.00  code
+11:51:59 PM  1000     49237      8.00      2.00  code
+11:51:59 PM  1000     49279     12.00      3.00  code
+11:51:59 PM  1000     49295      3.00      0.00  code
+11:51:59 PM  1000     49322      1.00      0.00  code
+11:51:59 PM  1000     49323     10.00      0.00  code
+11:51:59 PM  1000     49758     10.00      0.00  Isolated Web Co
+11:51:59 PM     0     53138      4.00      0.00  kworker/u32:2-gfx_low
+11:51:59 PM  1000     56898      1.00      0.00  mpstat
+11:51:59 PM  1000     56899      1.00      0.00  vmstat
+11:51:59 PM  1000     56900      1.00      0.00  pidstat
+
+11:51:59 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:52:00 PM   110       774    1.00    0.00    0.00    0.00    1.00     0  avahi-daemon
+11:52:00 PM     0       914    0.00    1.00    0.00    0.00    1.00     4  NetworkManager
+11:52:00 PM     0      1242    1.00    1.00    0.00    0.00    2.00     4  Xorg
+11:52:00 PM  1000      1908    2.00    0.00    0.00    0.00    2.00    12  cinnamon
+11:52:00 PM  1000      2263   31.00   31.00    0.00    0.00   62.00    12  firefox-bin
+11:52:00 PM  1000      2402    1.00    1.00    0.00    0.00    2.00     8  Privileged Cont
+11:52:00 PM  1000      2836    1.00    0.00    0.00    0.00    1.00     6  Isolated Web Co
+11:52:00 PM  1000      2839    1.00    0.00    0.00    0.00    1.00     1  Isolated Servic
+11:52:00 PM  1000      2963    4.00    1.00    0.00    0.00    5.00     0  Isolated Web Co
+11:52:00 PM  1000      3003    1.00    0.00    0.00    0.00    1.00    15  Isolated Web Co
+11:52:00 PM  1000      5014    1.00    0.00    0.00    0.00    1.00     1  Isolated Web Co
+11:52:00 PM  1000     35005    0.00    1.00    0.00    0.00    1.00     1  chrome
+11:52:00 PM  1000     49237    1.00    1.00    0.00    0.00    2.00    14  code
+11:52:00 PM  1000     49323    1.00    0.00    0.00    0.00    1.00    12  code
+11:52:00 PM  1000     49758    2.00    0.00    0.00    0.00    2.00    13  Isolated Web Co
+11:52:00 PM  1000     56900    1.00    4.00    0.00    0.00    5.00     1  pidstat
+11:52:00 PM  1000     56901  100.00    0.00    0.00    0.00  100.00     2  sysbench
+
+11:51:59 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:52:00 PM  1000      1908      4.00      0.00 5279180  262240   1.66  cinnamon
+11:52:00 PM  1000      2263    340.00      0.00 12395624  739264   4.69  firefox-bin
+11:52:00 PM  1000      2470     29.00      0.00 2501044  133088   0.84  WebExtensions
+11:52:00 PM  1000      2570      7.00      0.00 7944352  993156   6.30  Isolated Web Co
+11:52:00 PM  1000      2836      3.00      0.00 2492292  110280   0.70  Isolated Web Co
+11:52:00 PM  1000      2839      8.00      0.00 2460080   77880   0.49  Isolated Servic
+11:52:00 PM  1000      2963      7.00      0.00 11694688  763604   4.85  Isolated Web Co
+11:52:00 PM  1000      3003    235.00      0.00 2799964  312072   1.98  Isolated Web Co
+11:52:00 PM  1000      4311      1.00      0.00 2481056  108280   0.69  Isolated Web Co
+11:52:00 PM  1000      4436      1.00      0.00 2485164  110424   0.70  Isolated Web Co
+11:52:00 PM  1000      4626      1.00      0.00 2539960  136592   0.87  Isolated Web Co
+11:52:00 PM  1000      4637      1.00      0.00 2547604  138452   0.88  Isolated Web Co
+11:52:00 PM  1000      4650      3.00      0.00 2570420  149208   0.95  Isolated Web Co
+11:52:00 PM  1000      4869      1.00      0.00 2516492  124108   0.79  Isolated Web Co
+11:52:00 PM  1000      4904      1.00      0.00 2501044  116196   0.74  Isolated Web Co
+11:52:00 PM  1000      4907      1.00      0.00 2503860  122680   0.78  Isolated Web Co
+11:52:00 PM  1000      4914      1.00      0.00 2523004  139032   0.88  Isolated Web Co
+11:52:00 PM  1000      5011      1.00      0.00 2500024  117220   0.74  Isolated Web Co
+11:52:00 PM  1000      5014      1.00      0.00 2520504  129680   0.82  Isolated Web Co
+11:52:00 PM  1000      5165      1.00      0.00 2487708  113680   0.72  Isolated Web Co
+11:52:00 PM  1000      5220      1.00      0.00 2482328  109128   0.69  Isolated Web Co
+11:52:00 PM  1000      5273      1.00      0.00 2529716  133364   0.85  Isolated Web Co
+11:52:00 PM  1000      5546      1.00      0.00 2481332  107728   0.68  Isolated Web Co
+11:52:00 PM  1000      5549      1.00      0.00 2489808  122708   0.78  Isolated Web Co
+11:52:00 PM  1000      5646      1.00      0.00 2513048  124144   0.79  Isolated Web Co
+11:52:00 PM  1000     32126      1.00      0.00 2463144  109108   0.69  Isolated Web Co
+11:52:00 PM  1000     35005    104.00      0.00 34324576  364528   2.31  chrome
+11:52:00 PM  1000     49115      9.00      0.00 1461531824  191020   1.21  code
+11:52:00 PM  1000     49183      1.00      0.00 33880256   74264   0.47  code
+11:52:00 PM  1000     49237     30.00      0.00 1480181952  388436   2.47  code
+11:52:00 PM  1000     49758     32.00      0.00 3262756  544376   3.46  Isolated Web Co
+11:52:00 PM  1000     50048      2.00      0.00 1283793316   61780   0.39  chrome
+
+11:51:59 PM   UID       PID   cswch/s nvcswch/s  Command
+11:52:00 PM     0         1      1.00      0.00  systemd
+11:52:00 PM     0        17     86.00      0.00  rcu_preempt
+11:52:00 PM     0        23      2.00      0.00  migration/2
+11:52:00 PM     0        29      7.00      0.00  migration/4
+11:52:00 PM     0        35     11.00      0.00  migration/6
+11:52:00 PM     0        41     12.00      0.00  migration/8
+11:52:00 PM     0        47     18.00      0.00  migration/10
+11:52:00 PM     0        53      4.00      0.00  migration/12
+11:52:00 PM     0        59      3.00      0.00  migration/14
+11:52:00 PM     0        71      1.00      0.00  migration/3
+11:52:00 PM     0        77      5.00      0.00  migration/5
+11:52:00 PM     0        83      1.00      0.00  migration/7
+11:52:00 PM     0        89      1.00      0.00  migration/9
+11:52:00 PM     0        95      4.00      0.00  migration/11
+11:52:00 PM     0       101      2.00      0.00  migration/13
+11:52:00 PM     0       107      3.00      0.00  migration/15
+11:52:00 PM     0       119      2.00      0.00  kcompactd0
+11:52:00 PM     0       150      1.00      0.00  kworker/7:1-mm_percpu_wq
+11:52:00 PM     0       153      7.00      0.00  kworker/11:1-mld
+11:52:00 PM   996       748      1.00      0.00  systemd-timesyn
+11:52:00 PM   110       774     25.00      1.00  avahi-daemon
+11:52:00 PM     0       884     59.00      0.00  irq/84-rtw89_pci
+11:52:00 PM     0       914      7.00      0.00  NetworkManager
+11:52:00 PM     0      1242     25.00      0.00  Xorg
+11:52:00 PM  1000      1501    189.00      6.00  pipewire-pulse
+11:52:00 PM  1000      1908     14.00      1.00  cinnamon
+11:52:00 PM  1000      2104      9.00      0.00  blueman-tray
+11:52:00 PM  1000      2263     51.00      3.00  firefox-bin
+11:52:00 PM  1000      2352      2.00      0.00  Socket Process
+11:52:00 PM  1000      2402     71.00      1.00  Privileged Cont
+11:52:00 PM  1000      2407      1.00      0.00  RDD Process
+11:52:00 PM  1000      2470      9.00      0.00  WebExtensions
+11:52:00 PM  1000      2557      1.00      0.00  Utility Process
+11:52:00 PM  1000      2570      7.00      0.00  Isolated Web Co
+11:52:00 PM  1000      2836      4.00      0.00  Isolated Web Co
+11:52:00 PM  1000      2839     28.00      0.00  Isolated Servic
+11:52:00 PM  1000      2963    151.00     15.00  Isolated Web Co
+11:52:00 PM  1000      3003      4.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4259      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4311      5.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4436      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4439      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4446      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4536      2.00      1.00  Isolated Web Co
+11:52:00 PM  1000      4589      3.00      3.00  Isolated Web Co
+11:52:00 PM  1000      4605      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4626      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4637      5.00      1.00  Isolated Web Co
+11:52:00 PM  1000      4650      5.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4764      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4803      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4809      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4869      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4904      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4907      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      4914      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5011      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5014      5.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5020      1.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5113      4.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5165      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5180      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5220      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5273      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5469      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5546      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5549      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5646      5.00      0.00  Isolated Web Co
+11:52:00 PM  1000      5704      2.00      0.00  Isolated Web Co
+11:52:00 PM     0     22875      1.00      0.00  kworker/5:1-mm_percpu_wq
+11:52:00 PM     0     27141      1.00      0.00  kworker/12:0-mm_percpu_wq
+11:52:00 PM     0     30134      2.00      0.00  kworker/6:0-mm_percpu_wq
+11:52:00 PM  1000     32073      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000     32126      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000     32169      2.00      0.00  Isolated Web Co
+11:52:00 PM  1000     32341      1.00      0.00  Isolated Web Co
+11:52:00 PM  1000     32658      1.00      0.00  Isolated Web Co
+11:52:00 PM  1000     35005      3.00      0.00  chrome
+11:52:00 PM  1000     35280      1.00      0.00  chrome
+11:52:00 PM  1000     35925      1.00      0.00  chrome
+11:52:00 PM     0     39852      2.00      0.00  kworker/3:1-events
+11:52:00 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:52:00 PM     0     44016      1.00      0.00  kworker/9:4-mm_percpu_wq
+11:52:00 PM     0     44114      2.00      0.00  kworker/14:3-events
+11:52:00 PM     0     45130      3.00      0.00  kworker/2:5-events
+11:52:00 PM     0     45146      5.00      0.00  kworker/8:2-events
+11:52:00 PM     0     45732      1.00      0.00  kworker/10:0-mm_percpu_wq
+11:52:00 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:52:00 PM     0     48072     53.00      0.00  kworker/u32:3-gfx_low
+11:52:00 PM     0     48837      4.00      0.00  kworker/1:1-events
+11:52:00 PM     0     48949      2.00      0.00  kworker/0:2-events
+11:52:00 PM     0     49030      3.00      0.00  kworker/4:3-events
+11:52:00 PM  1000     49115      5.00      1.00  code
+11:52:00 PM  1000     49183      1.00      0.00  code
+11:52:00 PM  1000     49237     12.00      1.00  code
+11:52:00 PM  1000     49279     10.00      0.00  code
+11:52:00 PM  1000     49295      2.00      0.00  code
+11:52:00 PM  1000     49323     11.00      0.00  code
+11:52:00 PM  1000     49375      1.00      0.00  code
+11:52:00 PM  1000     49758     11.00      5.00  Isolated Web Co
+11:52:00 PM  1000     49793      1.00      1.00  Web Content
+11:52:00 PM  1000     49835      1.00      0.00  Web Content
+11:52:00 PM  1000     49887      1.00      0.00  Web Content
+11:52:00 PM  1000     50048      1.00      0.00  chrome
+11:52:00 PM     0     53138      3.00      0.00  kworker/u32:2-gfx_low
+11:52:00 PM  1000     56898      1.00      0.00  mpstat
+11:52:00 PM  1000     56899      1.00      0.00  vmstat
+11:52:00 PM  1000     56900      1.00      0.00  pidstat
+
+11:52:00 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:52:01 PM     0       884    0.00    1.00    0.00    0.00    1.00    11  irq/84-rtw89_pci
+11:52:01 PM  1000      1497    0.00    1.00    0.00    0.00    1.00    12  pipewire
+11:52:01 PM  1000      1501    1.00    1.00    0.00    0.00    2.00    15  pipewire-pulse
+11:52:01 PM  1000      2263    4.00    4.00    0.00    0.00    8.00     0  firefox-bin
+11:52:01 PM  1000      2402    0.00    1.00    0.00    0.00    1.00     0  Privileged Cont
+11:52:01 PM  1000      2470    1.00    1.00    0.00    0.00    2.00     8  WebExtensions
+11:52:01 PM  1000      2963    4.00    2.00    0.00    0.00    6.00    12  Isolated Web Co
+11:52:01 PM  1000      3003    5.00    5.00    0.00    0.00   10.00    14  Isolated Web Co
+11:52:01 PM  1000      4589    1.00    0.00    0.00    0.00    1.00     0  Isolated Web Co
+11:52:01 PM  1000      4904    0.00    1.00    0.00    0.00    1.00    14  Isolated Web Co
+11:52:01 PM  1000     49179    1.00    0.00    0.00    0.00    1.00     8  code
+11:52:01 PM  1000     49237    1.00    0.00    0.00    0.00    1.00    14  code
+11:52:01 PM  1000     49758    1.00    0.00    0.00    0.00    1.00    13  Isolated Web Co
+11:52:01 PM     0     53138    0.00    1.00    0.00    0.00    1.00     9  kworker/u32:2-gfx_low
+11:52:01 PM  1000     56900    1.00    3.00    0.00    0.00    4.00     1  pidstat
+11:52:01 PM  1000     56901   99.00    0.00    0.00    0.00   99.00     2  sysbench
+
+11:52:00 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:52:01 PM  1000      2263      1.00      0.00 12395624  739264   4.69  firefox-bin
+11:52:01 PM  1000      2470      1.00      0.00 2501044  133088   0.84  WebExtensions
+11:52:01 PM  1000      3003    990.00      0.00 2799980  313016   1.99  Isolated Web Co
+11:52:01 PM  1000      4536      2.00      0.00 2674512  196608   1.25  Isolated Web Co
+11:52:01 PM  1000      4914      1.00      0.00 2523004  139032   0.88  Isolated Web Co
+11:52:01 PM  1000      5113      2.00      0.00 2581424  154276   0.98  Isolated Web Co
+11:52:01 PM  1000     49179      4.00      0.00 34574900  177980   1.13  code
+11:52:01 PM  1000     49237     27.00      0.00 1480181952  388564   2.47  code
+11:52:01 PM  1000     49323      1.00      0.00 1461316600  106736   0.68  code
+11:52:01 PM  1000     49793      0.00      0.00 2428608   51268   0.33  Web Content
+
+11:52:00 PM   UID       PID   cswch/s nvcswch/s  Command
+11:52:01 PM     0        16      1.00      0.00  ksoftirqd/0
+11:52:01 PM     0        17     67.00      0.00  rcu_preempt
+11:52:01 PM     0        18      5.00      0.00  migration/0
+11:52:01 PM     0        23      1.00      0.00  migration/2
+11:52:01 PM     0        29     13.00      0.00  migration/4
+11:52:01 PM     0        35     14.00      0.00  migration/6
+11:52:01 PM     0        41      9.00      0.00  migration/8
+11:52:01 PM     0        47      9.00      0.00  migration/10
+11:52:01 PM     0        53      8.00      0.00  migration/12
+11:52:01 PM     0        59      8.00      0.00  migration/14
+11:52:01 PM     0        65      1.00      0.00  migration/1
+11:52:01 PM     0        66      1.00      0.00  ksoftirqd/1
+11:52:01 PM     0        71      1.00      0.00  migration/3
+11:52:01 PM     0        77      7.00      0.00  migration/5
+11:52:01 PM     0        83      1.00      0.00  migration/7
+11:52:01 PM     0        89      5.00      0.00  migration/9
+11:52:01 PM     0        95      4.00      0.00  migration/11
+11:52:01 PM     0       101      1.00      0.00  migration/13
+11:52:01 PM     0       107      6.00      0.00  migration/15
+11:52:01 PM     0       119      2.00      0.00  kcompactd0
+11:52:01 PM     0       150      1.00      0.00  kworker/7:1-mm_percpu_wq
+11:52:01 PM     0       153      7.00      0.00  kworker/11:1-mld
+11:52:01 PM     0       224      3.00      0.00  kworker/9:1H-kblockd
+11:52:01 PM   110       774     23.00      4.00  avahi-daemon
+11:52:01 PM     0       777      1.00      0.00  cron
+11:52:01 PM     0       783      1.00      0.00  irqbalance
+11:52:01 PM     0       884     76.00      0.00  irq/84-rtw89_pci
+11:52:01 PM     0       914     14.00      0.00  NetworkManager
+11:52:01 PM     0      1242     21.00      1.00  Xorg
+11:52:01 PM  1000      1501    188.00     12.00  pipewire-pulse
+11:52:01 PM  1000      1781      1.00      1.00  csd-housekeepin
+11:52:01 PM  1000      2104     10.00      0.00  blueman-tray
+11:52:01 PM  1000      2263     35.00      4.00  firefox-bin
+11:52:01 PM  1000      2352      1.00      0.00  Socket Process
+11:52:01 PM  1000      2402     71.00      4.00  Privileged Cont
+11:52:01 PM  1000      2470     11.00      0.00  WebExtensions
+11:52:01 PM  1000      2570      6.00      0.00  Isolated Web Co
+11:52:01 PM  1000      2836      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      2963    146.00      6.00  Isolated Web Co
+11:52:01 PM  1000      3003     16.00      1.00  Isolated Web Co
+11:52:01 PM  1000      4259      2.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4311      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4436      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4439      4.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4446      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4536      2.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4589      2.00      2.00  Isolated Web Co
+11:52:01 PM  1000      4605      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4626      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4637      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4650      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4764      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4803      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4809      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4869      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4904      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4907      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      4914      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5011      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5014      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5113      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5165      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5180      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5220      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5273      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5469      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5546      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5549      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5646      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000      5704      1.00      0.00  Isolated Web Co
+11:52:01 PM     0     22875      3.00      0.00  kworker/5:1-events
+11:52:01 PM     0     27141      1.00      0.00  kworker/12:0-mm_percpu_wq
+11:52:01 PM  1000     32073      1.00      1.00  Isolated Web Co
+11:52:01 PM  1000     32126      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000     32169      1.00      0.00  Isolated Web Co
+11:52:01 PM  1000     35005      2.00      0.00  chrome
+11:52:01 PM  1000     35280      1.00      0.00  chrome
+11:52:01 PM     0     39852      2.00      0.00  kworker/3:1-events
+11:52:01 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:52:01 PM     0     44016      1.00      0.00  kworker/9:4-mm_percpu_wq
+11:52:01 PM     0     44114      1.00      0.00  kworker/14:3-mm_percpu_wq
+11:52:01 PM     0     45130      1.00      0.00  kworker/2:5-mm_percpu_wq
+11:52:01 PM     0     45146      2.00      0.00  kworker/8:2-events
+11:52:01 PM     0     45732      2.00      0.00  kworker/10:0-events
+11:52:01 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:52:01 PM     0     48072     14.00      0.00  kworker/u32:3-flush-259:0
+11:52:01 PM     0     48837      1.00      0.00  kworker/1:1-mm_percpu_wq
+11:52:01 PM     0     48949      1.00      0.00  kworker/0:2-mm_percpu_wq
+11:52:01 PM     0     49030      1.00      0.00  kworker/4:3-mm_percpu_wq
+11:52:01 PM  1000     49179      1.00      0.00  code
+11:52:01 PM  1000     49237     12.00      1.00  code
+11:52:01 PM  1000     49279     10.00      0.00  code
+11:52:01 PM  1000     49295      2.00      0.00  code
+11:52:01 PM  1000     49323     12.00      0.00  code
+11:52:01 PM  1000     49758     10.00      4.00  Isolated Web Co
+11:52:01 PM  1000     49793      3.00      0.00  Web Content
+11:52:01 PM     0     53138     45.00      1.00  kworker/u32:2-gfx_low
+11:52:01 PM     0     55897      1.00      0.00  kworker/u33:0-rtw89_tx_wq
+11:52:01 PM  1000     56898      1.00      0.00  mpstat
+11:52:01 PM  1000     56899      1.00      0.00  vmstat
+11:52:01 PM  1000     56900      1.00      0.00  pidstat
+
+11:52:01 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:52:02 PM   110       774    1.00    0.00    0.00    0.00    1.00    12  avahi-daemon
+11:52:02 PM  1000      1497    1.00    1.00    0.00    0.00    2.00    12  pipewire
+11:52:02 PM  1000      1501    0.00    2.00    0.00    0.00    2.00    15  pipewire-pulse
+11:52:02 PM  1000      2263    4.00    5.00    0.00    0.00    9.00     4  firefox-bin
+11:52:02 PM  1000      2402    1.00    0.00    0.00    0.00    1.00     6  Privileged Cont
+11:52:02 PM  1000      2570    1.00    0.00    0.00    0.00    1.00    14  Isolated Web Co
+11:52:02 PM  1000      2839    1.00    0.00    0.00    0.00    1.00     1  Isolated Servic
+11:52:02 PM  1000      2963    5.00    2.00    0.00    0.00    7.00    14  Isolated Web Co
+11:52:02 PM  1000      3627    1.00    0.00    0.00    0.00    1.00     6  sd_dummy
+11:52:02 PM  1000      4907    1.00    0.00    0.00    0.00    1.00    14  Isolated Web Co
+11:52:02 PM  1000      5549    1.00    0.00    0.00    0.00    1.00     2  Isolated Web Co
+11:52:02 PM     0     23431    1.00    0.00    0.00    0.00    1.00     2  fwupd
+11:52:02 PM  1000     49323    1.00    0.00    0.00    0.00    1.00    13  code
+11:52:02 PM  1000     49758    2.00    0.00    0.00    0.00    2.00     4  Isolated Web Co
+11:52:02 PM  1000     56900    1.00    4.00    0.00    0.00    5.00     1  pidstat
+11:52:02 PM  1000     56901  100.00    0.00    0.00    0.00  100.00     2  sysbench
+
+11:52:01 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:52:02 PM  1000      2263      1.00      0.00 12395624  739264   4.69  firefox-bin
+11:52:02 PM  1000      2470      1.00      0.00 2501044  133088   0.84  WebExtensions
+11:52:02 PM  1000      2836      5.00      0.00 2492292  110280   0.70  Isolated Web Co
+11:52:02 PM  1000      2839      3.00      0.00 2460080   77880   0.49  Isolated Servic
+11:52:02 PM  1000      3003      5.00      0.00 2799980  313016   1.99  Isolated Web Co
+11:52:02 PM  1000      4311      1.00      0.00 2481056  108280   0.69  Isolated Web Co
+11:52:02 PM  1000      4536      3.00      0.00 2674512  196608   1.25  Isolated Web Co
+11:52:02 PM  1000      4589    109.00      0.00 2907080  302784   1.92  Isolated Web Co
+11:52:02 PM  1000      4605      1.00      0.00 2529568  126820   0.80  Isolated Web Co
+11:52:02 PM  1000      4626      1.00      0.00 2539960  136592   0.87  Isolated Web Co
+11:52:02 PM  1000      4637      1.00      0.00 2547604  138452   0.88  Isolated Web Co
+11:52:02 PM  1000      4907      1.00      0.00 2503860  122680   0.78  Isolated Web Co
+11:52:02 PM  1000      5014      1.00      0.00 2520504  129680   0.82  Isolated Web Co
+11:52:02 PM  1000      5180      1.00      0.00 2498740  119556   0.76  Isolated Web Co
+11:52:02 PM  1000      5273      1.00      0.00 2529716  133364   0.85  Isolated Web Co
+11:52:02 PM  1000      5469      1.00      0.00 2549176  142792   0.91  Isolated Web Co
+11:52:02 PM  1000     35067      4.00      0.00 34291624   59576   0.38  chrome
+11:52:02 PM  1000     35618      1.00      0.00 34035280   85624   0.54  chrome
+11:52:02 PM  1000     49237     27.00      0.00 1480181952  388564   2.47  code
+11:52:02 PM  1000     49279      1.00      0.00 1461308524  116076   0.74  code
+11:52:02 PM  1000     49758      3.00      0.00 3262756  544376   3.46  Isolated Web Co
+
+11:52:01 PM   UID       PID   cswch/s nvcswch/s  Command
+11:52:02 PM     0        16      1.00      0.00  ksoftirqd/0
+11:52:02 PM     0        17     70.00      0.00  rcu_preempt
+11:52:02 PM     0        18      2.00      0.00  migration/0
+11:52:02 PM     0        23      1.00      0.00  migration/2
+11:52:02 PM     0        29     16.00      0.00  migration/4
+11:52:02 PM     0        35     11.00      0.00  migration/6
+11:52:02 PM     0        41     12.00      0.00  migration/8
+11:52:02 PM     0        47      8.00      0.00  migration/10
+11:52:02 PM     0        53      3.00      0.00  migration/12
+11:52:02 PM     0        59      7.00      0.00  migration/14
+11:52:02 PM     0        65      1.00      0.00  migration/1
+11:52:02 PM     0        77      1.00      0.00  migration/5
+11:52:02 PM     0        89      3.00      0.00  migration/9
+11:52:02 PM     0        95      2.00      0.00  migration/11
+11:52:02 PM     0       101      4.00      0.00  migration/13
+11:52:02 PM     0       107      9.00      0.00  migration/15
+11:52:02 PM     0       119      2.00      0.00  kcompactd0
+11:52:02 PM     0       150      1.00      0.00  kworker/7:1-mm_percpu_wq
+11:52:02 PM     0       248      2.00      0.00  kworker/8:1H-kblockd
+11:52:02 PM     0       367      3.00      1.00  jbd2/nvme0n1p7-8
+11:52:02 PM   110       774     14.00      1.00  avahi-daemon
+11:52:02 PM     0       884     33.00      0.00  irq/84-rtw89_pci
+11:52:02 PM     0       914     16.00      4.00  NetworkManager
+11:52:02 PM     0      1242     20.00      1.00  Xorg
+11:52:02 PM  1000      1501    191.00     12.00  pipewire-pulse
+11:52:02 PM  1000      2104     10.00      0.00  blueman-tray
+11:52:02 PM  1000      2263     44.00      6.00  firefox-bin
+11:52:02 PM  1000      2402     69.00      3.00  Privileged Cont
+11:52:02 PM  1000      2470      8.00      0.00  WebExtensions
+11:52:02 PM  1000      2570      3.00      0.00  Isolated Web Co
+11:52:02 PM  1000      2836      9.00      0.00  Isolated Web Co
+11:52:02 PM  1000      2839      1.00      0.00  Isolated Servic
+11:52:02 PM  1000      2963    148.00      8.00  Isolated Web Co
+11:52:02 PM  1000      3003      3.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4259      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4311      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4436      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4439      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4446      2.00      1.00  Isolated Web Co
+11:52:02 PM  1000      4536      6.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4589      5.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4605      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4626      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4637      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4650      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4764      4.00      1.00  Isolated Web Co
+11:52:02 PM  1000      4803      1.00      2.00  Isolated Web Co
+11:52:02 PM  1000      4809      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4869      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4904      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      4907      2.00      1.00  Isolated Web Co
+11:52:02 PM  1000      4914      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5011      2.00      4.00  Isolated Web Co
+11:52:02 PM  1000      5014      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5020      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5113      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5165      2.00      2.00  Isolated Web Co
+11:52:02 PM  1000      5180      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5220      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5273      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5469      1.00      1.00  Isolated Web Co
+11:52:02 PM  1000      5546      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5549      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5646      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000      5704      2.00      0.00  Isolated Web Co
+11:52:02 PM     0     22875      2.00      0.00  kworker/5:1-events
+11:52:02 PM     0     27141      1.00      0.00  kworker/12:0-mm_percpu_wq
+11:52:02 PM     0     30134      1.00      0.00  kworker/6:0-mm_percpu_wq
+11:52:02 PM  1000     32073      4.00      0.00  Isolated Web Co
+11:52:02 PM  1000     32126      2.00      0.00  Isolated Web Co
+11:52:02 PM  1000     32169      4.00      0.00  Isolated Web Co
+11:52:02 PM  1000     32341      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000     32658      1.00      0.00  Isolated Web Co
+11:52:02 PM  1000     35005      3.00      0.00  chrome
+11:52:02 PM  1000     35067      1.00      0.00  chrome
+11:52:02 PM  1000     35280      1.00      0.00  chrome
+11:52:02 PM  1000     35618      1.00      0.00  chrome
+11:52:02 PM  1000     35925      1.00      0.00  chrome
+11:52:02 PM     0     39852      2.00      0.00  kworker/3:1-events_freezable
+11:52:02 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:52:02 PM     0     44114      1.00      0.00  kworker/14:3-mm_percpu_wq
+11:52:02 PM     0     45130      4.00      0.00  kworker/2:5-events
+11:52:02 PM     0     45146      3.00      0.00  kworker/8:2-events
+11:52:02 PM     0     45732      1.00      0.00  kworker/10:0-mm_percpu_wq
+11:52:02 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:52:02 PM     0     48072      1.00      0.00  kworker/u32:3-gfx_low
+11:52:02 PM     0     48837      4.00      0.00  kworker/1:1-events
+11:52:02 PM     0     48949      2.00      0.00  kworker/0:2-events
+11:52:02 PM     0     49030      1.00      0.00  kworker/4:3-mm_percpu_wq
+11:52:02 PM  1000     49115      2.00      0.00  code
+11:52:02 PM  1000     49237      8.00      0.00  code
+11:52:02 PM  1000     49279     11.00      2.00  code
+11:52:02 PM  1000     49295      2.00      0.00  code
+11:52:02 PM  1000     49323     12.00      0.00  code
+11:52:02 PM  1000     49758     13.00      3.00  Isolated Web Co
+11:52:02 PM  1000     49793      1.00      0.00  Web Content
+11:52:02 PM  1000     49835      1.00      0.00  Web Content
+11:52:02 PM  1000     49887      1.00      0.00  Web Content
+11:52:02 PM     0     53138     49.00      0.00  kworker/u32:2-gfx_low
+11:52:02 PM     0     55897      1.00      0.00  kworker/u33:0-rtw89_tx_wq
+11:52:02 PM  1000     56898      1.00      0.00  mpstat
+11:52:02 PM  1000     56899      1.00      0.00  vmstat
+11:52:02 PM  1000     56900      1.00      0.00  pidstat
+
+11:52:02 PM   UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:52:03 PM     0       884    0.00    1.00    0.00    0.00    1.00    11  irq/84-rtw89_pci
+11:52:03 PM     0      1242    1.00    0.00    0.00    0.00    1.00    11  Xorg
+11:52:03 PM  1000      1501    0.00    1.00    0.00    0.00    1.00     4  pipewire-pulse
+11:52:03 PM  1000      2263    4.00    3.00    0.00    0.00    7.00     0  firefox-bin
+11:52:03 PM  1000      2402    1.00    1.00    0.00    0.00    2.00     4  Privileged Cont
+11:52:03 PM  1000      2963    5.00    2.00    0.00    0.00    7.00    12  Isolated Web Co
+11:52:03 PM  1000      3003    1.00    0.00    0.00    0.00    1.00    14  Isolated Web Co
+11:52:03 PM  1000      4536    0.00    1.00    0.00    0.00    1.00     0  Isolated Web Co
+11:52:03 PM  1000      4589    1.00    0.00    0.00    0.00    1.00     0  Isolated Web Co
+11:52:03 PM  1000      4650    1.00    0.00    0.00    0.00    1.00     4  Isolated Web Co
+11:52:03 PM  1000      4764    1.00    0.00    0.00    0.00    1.00     0  Isolated Web Co
+11:52:03 PM  1000      5273    1.00    0.00    0.00    0.00    1.00     0  Isolated Web Co
+11:52:03 PM  1000     32169    1.00    0.00    0.00    0.00    1.00    10  Isolated Web Co
+11:52:03 PM  1000     35005    1.00    0.00    0.00    0.00    1.00     1  chrome
+11:52:03 PM  1000     49237    1.00    0.00    0.00    0.00    1.00     0  code
+11:52:03 PM  1000     49279    1.00    0.00    0.00    0.00    1.00    10  code
+11:52:03 PM  1000     49323    1.00    0.00    0.00    0.00    1.00    13  code
+11:52:03 PM  1000     49758    1.00    1.00    0.00    0.00    2.00     0  Isolated Web Co
+11:52:03 PM     0     53138    0.00    1.00    0.00    0.00    1.00     9  kworker/u32:2-events_power_efficient
+11:52:03 PM  1000     56900    0.00    3.00    0.00    0.00    3.00     1  pidstat
+11:52:03 PM  1000     56901   99.00    0.00    0.00    0.00   99.00     2  sysbench
+
+11:52:02 PM   UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:52:03 PM  1000      2263      7.00      0.00 12395624  739264   4.69  firefox-bin
+11:52:03 PM  1000      2470      2.00      0.00 2501044  133088   0.84  WebExtensions
+11:52:03 PM  1000      2963    759.00      0.00 11694688  764984   4.86  Isolated Web Co
+11:52:03 PM  1000      3003    486.00      0.00 2799980  314552   2.00  Isolated Web Co
+11:52:03 PM  1000      4439      3.00      0.00 2522032  129144   0.82  Isolated Web Co
+11:52:03 PM  1000      4605      2.00      0.00 2529568  126820   0.80  Isolated Web Co
+11:52:03 PM  1000      4907      2.00      0.00 2503860  122680   0.78  Isolated Web Co
+11:52:03 PM  1000      4914      1.00      0.00 2523004  139032   0.88  Isolated Web Co
+11:52:03 PM  1000      5011      2.00      0.00 2500024  117220   0.74  Isolated Web Co
+11:52:03 PM  1000      5165      1.00      0.00 2487708  113680   0.72  Isolated Web Co
+11:52:03 PM  1000      5180      1.00      0.00 2498740  119556   0.76  Isolated Web Co
+11:52:03 PM  1000      5220      1.00      0.00 2482328  109128   0.69  Isolated Web Co
+11:52:03 PM  1000      5546      1.00      0.00 2481332  107728   0.68  Isolated Web Co
+11:52:03 PM  1000      5704      1.00      0.00 2481304  110856   0.70  Isolated Web Co
+11:52:03 PM  1000     35005    294.00      0.00 34324576  365680   2.32  chrome
+11:52:03 PM  1000     35050     91.00      0.00 34734236  274152   1.74  chrome
+11:52:03 PM  1000     35051     14.00      0.00 34064912  131260   0.83  chrome
+11:52:03 PM  1000     49237     36.00      0.00 1480181952  388564   2.47  code
+11:52:03 PM  1000     49279     38.00      0.00 1461308524  116076   0.74  code
+11:52:03 PM  1000     49295      4.00      0.00 1461300524  156304   0.99  code
+11:52:03 PM  1000     49322      7.00      0.00 1461299592  113156   0.72  code
+11:52:03 PM  1000     49323      1.00      0.00 1461316600  106736   0.68  code
+
+11:52:02 PM   UID       PID   cswch/s nvcswch/s  Command
+11:52:03 PM     0        16      4.00      0.00  ksoftirqd/0
+11:52:03 PM     0        17     67.00      0.00  rcu_preempt
+11:52:03 PM     0        18      2.00      0.00  migration/0
+11:52:03 PM     0        23      1.00      0.00  migration/2
+11:52:03 PM     0        29     15.00      0.00  migration/4
+11:52:03 PM     0        35     10.00      0.00  migration/6
+11:52:03 PM     0        41      8.00      0.00  migration/8
+11:52:03 PM     0        47      3.00      0.00  migration/10
+11:52:03 PM     0        53      5.00      0.00  migration/12
+11:52:03 PM     0        59      5.00      0.00  migration/14
+11:52:03 PM     0        89      1.00      0.00  migration/9
+11:52:03 PM     0        95      1.00      0.00  migration/11
+11:52:03 PM     0       101      1.00      0.00  migration/13
+11:52:03 PM     0       107      5.00      0.00  migration/15
+11:52:03 PM     0       119      1.00      0.00  kcompactd0
+11:52:03 PM     0       150      1.00      0.00  kworker/7:1-mm_percpu_wq
+11:52:03 PM     0       153      4.00      0.00  kworker/11:1-mld
+11:52:03 PM     0       227      3.00      0.00  kworker/0:1H-kblockd
+11:52:03 PM     0       251      1.00      0.00  kworker/4:1H-kblockd
+11:52:03 PM     0       257      6.00      0.00  kworker/15:1H-kblockd
+11:52:03 PM     0       367      9.00      0.00  jbd2/nvme0n1p7-8
+11:52:03 PM   110       774     10.00      0.00  avahi-daemon
+11:52:03 PM     0       884     89.00      0.00  irq/84-rtw89_pci
+11:52:03 PM     0       914     16.00      0.00  NetworkManager
+11:52:03 PM     0      1242     21.00      1.00  Xorg
+11:52:03 PM  1000      1501    187.00      5.00  pipewire-pulse
+11:52:03 PM  1000      2104     10.00      0.00  blueman-tray
+11:52:03 PM  1000      2263     30.00      3.00  firefox-bin
+11:52:03 PM  1000      2352      1.00      0.00  Socket Process
+11:52:03 PM  1000      2402     69.00      4.00  Privileged Cont
+11:52:03 PM  1000      2470      9.00      1.00  WebExtensions
+11:52:03 PM  1000      2570      7.00      0.00  Isolated Web Co
+11:52:03 PM  1000      2836      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      2963    151.00      8.00  Isolated Web Co
+11:52:03 PM  1000      3003      7.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4259      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4311      1.00      1.00  Isolated Web Co
+11:52:03 PM  1000      4436      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4439      2.00      1.00  Isolated Web Co
+11:52:03 PM  1000      4446      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4536      1.00      1.00  Isolated Web Co
+11:52:03 PM  1000      4589      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4605      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4626      2.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4637      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4650      5.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4764      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4803      1.00      2.00  Isolated Web Co
+11:52:03 PM  1000      4809      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4869      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4904      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4907      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      4914      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5011      2.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5014      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5165      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5180      1.00      1.00  Isolated Web Co
+11:52:03 PM  1000      5220      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5273      1.00      3.00  Isolated Web Co
+11:52:03 PM  1000      5469      2.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5546      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5549      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5646      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000      5704      1.00      0.00  Isolated Web Co
+11:52:03 PM     0     22875      3.00      0.00  kworker/5:1-events
+11:52:03 PM     0     27141      1.00      0.00  kworker/12:0-mm_percpu_wq
+11:52:03 PM     0     30134      1.00      0.00  kworker/6:0-mm_percpu_wq
+11:52:03 PM  1000     32073      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000     32126      2.00      0.00  Isolated Web Co
+11:52:03 PM  1000     32169      1.00      0.00  Isolated Web Co
+11:52:03 PM  1000     35005      6.00      0.00  chrome
+11:52:03 PM  1000     35050      1.00      0.00  chrome
+11:52:03 PM  1000     35051      1.00      0.00  chrome
+11:52:03 PM  1000     35280      1.00      0.00  chrome
+11:52:03 PM     0     39852      3.00      0.00  kworker/3:1-events_freezable
+11:52:03 PM     0     43987      1.00      0.00  kworker/13:0-mm_percpu_wq
+11:52:03 PM     0     44016      1.00      0.00  kworker/9:4-mm_percpu_wq
+11:52:03 PM     0     44114      1.00      0.00  kworker/14:3-mm_percpu_wq
+11:52:03 PM     0     45130      1.00      0.00  kworker/2:5-events
+11:52:03 PM     0     45146      2.00      0.00  kworker/8:2-events
+11:52:03 PM     0     45732      2.00      0.00  kworker/10:0-mm_percpu_wq
+11:52:03 PM     0     46066      1.00      0.00  kworker/15:0-mm_percpu_wq
+11:52:03 PM     0     48072      7.00      0.00  kworker/u32:3-events_unbound
+11:52:03 PM     0     48837      1.00      0.00  kworker/1:1-mm_percpu_wq
+11:52:03 PM     0     48949      1.00      0.00  kworker/0:2-mm_percpu_wq
+11:52:03 PM     0     49030      1.00      0.00  kworker/4:3-mm_percpu_wq
+11:52:03 PM  1000     49115      1.00      0.00  code
+11:52:03 PM  1000     49237      8.00      1.00  code
+11:52:03 PM  1000     49279      8.00      0.00  code
+11:52:03 PM  1000     49295      2.00      0.00  code
+11:52:03 PM  1000     49322      1.00      0.00  code
+11:52:03 PM  1000     49323     11.00      1.00  code
+11:52:03 PM  1000     49375      1.00      0.00  code
+11:52:03 PM  1000     49758     11.00      2.00  Isolated Web Co
+11:52:03 PM     0     53138     46.00      1.00  kworker/u32:2-events_power_efficient
+11:52:03 PM     0     55897      4.00      0.00  kworker/u33:0-rtw89_tx_wq
+11:52:03 PM  1000     56898      1.00      1.00  mpstat
+11:52:03 PM  1000     56899      1.00      0.00  vmstat
+11:52:03 PM  1000     56900      1.00      0.00  pidstat
