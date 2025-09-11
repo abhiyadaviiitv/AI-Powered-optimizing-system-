@@ -1,3 +1,5 @@
+DAY 1
+
 # AI-Powered Self-Optimizing Operating System
 ## Project Scope and Objectives
 
