@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": "2025-10-08T17:17:29.187423",
+    "features": {
+      "system_cpu_percent": 45.0,
+      "system_ram_percent": 65.0,
+      "system_temperature": 62.0,
+      "battery_percent": 85,
+      "battery_plugged": 1,
+      "load_average": 1.5,
+      "total_processes": 2,
+      "running_processes": 2,
+      "hour_of_day": 17,
+      "is_weekend": 0,
+      "is_night": 0,
+      "avg_cpu_usage": 20.0,
+      "max_cpu_usage": 25.0,
+      "std_cpu_usage": 5.0,
+      "avg_memory_usage": 10.0,
+      "max_memory_usage": 12.0,
+      "high_priority_count": 0,
+      "low_priority_count": 0,
+      "cpu_intensive_count": 0,
+      "memory_intensive_count": 1,
+      "total_threads": 25,
+      "avg_threads_per_process": 12.5
+    },
+    "labels": {
+      "proc_1234_quantum": 18,
+      "proc_1234_priority": 0.85,
+      "proc_1234_type": 1,
+      "proc_5678_quantum": 15,
+      "proc_5678_priority": 0.8,
+      "proc_5678_type": 0,
+      "system_avg_quantum": 16.5,
+      "system_avg_priority": 0.825,
+      "system_quantum_std": 1.5,
+      "interactive_ratio": 1.0
+    },
+    "context": {
+      "system_load": 45.0,
+      "process_count": 2,
+      "time_of_day": 17,
+      "day_of_week": 2,
+      "sample_id": 0
+    }
+  }
+]
