@@ -46,62 +46,66 @@ class MLPageReplacementSystem:
         self.scaler = model_package['scaler']
         
         print(f"Loaded {self.model_name} model successfully!")
-    
+        
     def extract_features_for_page(self, page_id, memory_page):
-        """
-        Extract features for a single page in memory
-        """
-        # Calculate recency
-        last_access_idx = -1
-        for i in range(len(self.access_history) - 1, -1, -1):
-            if self.access_history[i] == memory_page:
-                last_access_idx = i
-                break
-        
-        recency = len(self.access_history) - last_access_idx if last_access_idx != -1 else len(self.access_history)
-        
-        # Calculate frequency
-        frequency = list(self.access_history).count(memory_page)
-        
-        # Time in memory
-        time_in_memory = min(100, list(self.access_history[-100:]).count(memory_page))
-        
-        # Distance from current access
-        page_distance = abs(memory_page - page_id)
-        
-        # Recent access patterns
-        recent_10 = 1 if memory_page in list(self.access_history)[-10:] else 0
-        recent_50 = 1 if memory_page in list(self.access_history)[-50:] else 0
-        recent_100 = 1 if memory_page in list(self.access_history)[-100:] else 0
-        
-        # Base features
-        features = {
-            'recency': recency,
-            'frequency': frequency,
-            'time_in_memory': time_in_memory,
-            'page_distance': page_distance,
-            'recent_10': recent_10,
-            'recent_50': recent_50,
-            'recent_100': recent_100
-        }
-        
-        # Derived features (matching preprocessing)
-        features['recency_frequency_ratio'] = recency / (frequency + 1)
-        features['time_frequency_ratio'] = time_in_memory / (frequency + 1)
-        features['log_recency'] = np.log1p(recency)
-        features['log_frequency'] = np.log1p(frequency)
-        features['recency_distance'] = recency * page_distance
-        features['freq_recent_10'] = frequency * recent_10
-        features['priority_score'] = (
-            frequency * 0.3 + 
-            (100 - recency) * 0.3 + 
-            recent_10 * 20 +
-            recent_50 * 10 +
-            recent_100 * 5
-        )
-        
-        return features
-    
+            """
+            Extract features for a single page in memory
+            """
+            # Convert deque to list for easier operations
+            history_list = list(self.access_history)
+            
+            # Calculate recency
+            last_access_idx = -1
+            for i in range(len(history_list) - 1, -1, -1):
+                if history_list[i] == memory_page:
+                    last_access_idx = i
+                    break
+            
+            recency = len(history_list) - last_access_idx if last_access_idx != -1 else len(history_list)
+            
+            # Calculate frequency
+            frequency = history_list.count(memory_page)
+            
+            # Time in memory
+            time_in_memory = min(100, history_list[-100:].count(memory_page))
+            
+            # Distance from current access
+            page_distance = abs(memory_page - page_id)
+            
+            # Recent access patterns
+            recent_10 = 1 if memory_page in history_list[-10:] else 0
+            recent_50 = 1 if memory_page in history_list[-50:] else 0
+            recent_100 = 1 if memory_page in history_list[-100:] else 0
+            
+            # Base features
+            features = {
+                'recency': recency,
+                'frequency': frequency,
+                'time_in_memory': time_in_memory,
+                'page_distance': page_distance,
+                'recent_10': recent_10,
+                'recent_50': recent_50,
+                'recent_100': recent_100
+            }
+            
+            # Derived features (matching preprocessing)
+            features['recency_frequency_ratio'] = recency / (frequency + 1)
+            features['time_frequency_ratio'] = time_in_memory / (frequency + 1)
+            features['log_recency'] = np.log1p(recency)
+            features['log_frequency'] = np.log1p(frequency)
+            features['recency_distance'] = recency * page_distance
+            features['freq_recent_10'] = frequency * recent_10
+            features['priority_score'] = (
+                frequency * 0.3 + 
+                (100 - recency) * 0.3 + 
+                recent_10 * 20 +
+                recent_50 * 10 +
+                recent_100 * 5
+            )
+            
+            return features
+
+
     def predict_victim(self, incoming_page):
         """
         Use ML model to predict which page to evict
@@ -268,7 +272,7 @@ class MLPageReplacementSystem:
             print(f"ML Improvement over FIFO: {improvement_fifo:.2f}%")
         
         return ml_faults, lru_faults, fifo_faults
-    
+
     def visualize_memory_state(self, save_path='memory_state.png'):
         """
         Visualize current memory state
@@ -279,12 +283,15 @@ class MLPageReplacementSystem:
         rows = 4
         cols = self.memory_size // rows
         
+        # Convert deque to list for slicing
+        history_list = list(self.access_history)
+        
         for i, page_id in enumerate(self.memory):
             row = i // cols
             col = i % cols
             
             # Color based on recency
-            recent_count = list(self.access_history[-100:]).count(page_id)
+            recent_count = history_list[-100:].count(page_id)
             color_intensity = min(1.0, recent_count / 10)
             color = plt.cm.RdYlGn(color_intensity)
             

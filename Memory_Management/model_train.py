@@ -284,12 +284,12 @@ class PageReplacementModel:
         )
         
         # Plot feature importance for best model
-        if hasattr(self.best_model, 'feature_importances_'):
-            self.plot_feature_importance(
-                self.best_model,
-                self.best_model_name,
-                save_path='feature_importance_best.png'
-            )
+        # if hasattr(self.best_model, 'feature_importances_'):
+        #     self.plot_feature_importance(
+        #         self.best_model,
+        #         self.best_model_name,
+        #         save_path='feature_importance_best.png'
+        #     )
         
         # Save best model
         if save_model:
